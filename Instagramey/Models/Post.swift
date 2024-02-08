@@ -29,14 +29,12 @@ struct PostAuthor {
 extension Post {
     static var example: Post {
         Post(author: .appTeamCarolina,
-             imageName: "apply-22",
-             likeCount: 33,
+             imageName: "academy-recap",
+             likeCount: 70,
              caption:
              """
-             We are so excited to announce that applications to become a part of one of the only college iOS teams in the nation are available now! Whether you’re a coder or a designer, beginner or expert, App Team is the place to be.
-
-             Check out the link in our bio and make sure to have yours in by this Friday, January 14th!!!
+             Let’s take a look at what iOS Academy has been up to this semester!
              """,
-             timestamp: "January 10")
+             timestamp: "December 10")
     }
 }

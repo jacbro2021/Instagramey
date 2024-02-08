@@ -12,6 +12,87 @@ struct Feed {
     
     static let example: Feed = Feed(posts: [
         Post(author: .appTeamCarolina,
+             imageName: "interest-meeting",
+             likeCount: 61,
+             caption: """
+             🚀 Dive into the world of innovation with App Team Carolina! Join us for an interest meeting on Thursday (1/18) from 6pm-7pm on Zoom. Join through the link in the website, using the meeting ID: 962 9974 7885, or dm for the Zoom link. 🌟 Whether you are interested in applying for a Learning Team, Production Team, or just want to learn more about App Team Carolina this is a great opportunity to hear from members of C-suite and Team Leads and participate in Q & A! #AppTeamCarolina
+             """,
+             timestamp: "January 16"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "apply-s24",
+             likeCount: 113,
+             caption: """
+             📚 Applications are OUT for the Spring semester! Apply by January 19th! 🎉✨
+
+             Link in bio to apply!
+             appteamcarolina.com
+             """,
+             timestamp: "January 10"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "fall-gala",
+             likeCount: 128,
+             caption: """
+             Flashback to the unforgettable App Team Carolina Gala from last semester! 🌟 A night filled with the brilliance of Learning Teams showcasing their projects and Production Teams presenting their semester-long hard work. ✨ We can’t wait for this next semester of inspiration and achievement! 🚀
+             """,
+             timestamp: "January 12"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "academy-recap",
+             likeCount: 70,
+             caption: "Let’s take a look at what iOS Academy has been up to this semester!",
+             timestamp: "December 10"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "luminary",
+             likeCount: 71,
+             caption: """
+             Swipe to learn more about Luminary, our Client Production Team!
+             """,
+             timestamp: "November 8"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "diverse-genders",
+             likeCount: 47,
+             caption: """
+             Excited to share our first Diverse Genders in App Team event! Thank you to everyone who came out!
+             """,
+             timestamp: "November 3"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "fall-retreat",
+             likeCount: 66,
+             caption: """
+             App Team had a blast on retreat at Lake Norman!
+             """,
+             timestamp: "October 30"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "hacknc-workshop",
+             likeCount: 39,
+             caption: """
+             Join us tonight for our app dev workshop @thehacknc! Please have Xcode downloaded before you arrive.
+             """,
+             timestamp: "October 26"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "willowtree-event",
+             likeCount: 66,
+             caption: """
+             A huge thanks to WillowTree for hosting us! @willowtreeapps
+             """,
+             timestamp: "October 25"),
+        
+        Post(author: .appTeamCarolina,
+             imageName: "centible",
+             likeCount: 82,
+             caption: """
+             Swipe to learn more about Centible, our Startup Production Team!
+             """,
+             timestamp: "October 17"),
+        
+        Post(author: .appTeamCarolina,
              imageName: "apply-22",
              likeCount: 33,
              caption:
