@@ -8,11 +8,38 @@
 import SwiftUI
 
 struct FeedView: View {
+    var feed: Feed
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView {
+                VStack {
+                    ForEach(feed.posts) {post in
+                        PostView(post: post)
+                    }
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigation) {
+                    HStack {
+                        Image("cursive-logo")
+                            .resizable()
+                            .scaledToFit()
+                        
+                        Spacer()
+                        
+                        NavigationLink {} label: {
+                            Image(systemName: "paperplane")
+                        }
+                        .foregroundStyle(.primary)
+                        .padding(.horizontal, -10)
+                    }
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    FeedView()
+    FeedView(feed: Feed.example)
 }
