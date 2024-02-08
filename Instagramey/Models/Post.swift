@@ -29,12 +29,11 @@ struct PostAuthor {
 extension Post {
     static var example: Post {
         Post(author: .appTeamCarolina,
-             imageName: "academy-recap",
-             likeCount: 70,
-             caption:
-             """
-             Let’s take a look at what iOS Academy has been up to this semester!
+             imageName: "interest-meeting",
+             likeCount: 61,
+             caption: """
+             🚀 Dive into the world of innovation with App Team Carolina! Join us for an interest meeting on Thursday (1/18) from 6pm-7pm on Zoom. Join through the link in the website, using the meeting ID: 962 9974 7885, or dm for the Zoom link. 🌟 Whether you are interested in applying for a Learning Team, Production Team, or just want to learn more about App Team Carolina this is a great opportunity to hear from members of C-suite and Team Leads and participate in Q & A! #AppTeamCarolina
              """,
-             timestamp: "December 10")
+             timestamp: "January 16")
     }
 }
